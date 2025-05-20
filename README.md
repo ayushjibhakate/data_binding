@@ -1,27 +1,23 @@
-# DataBinding
+Angular Data Binding Project
+This project demonstrates the essential concept of data binding in Angular, a mechanism that enables communication between the component (logic) and the template (UI). It allows developers to create dynamic, interactive web applications with ease.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.8.
+🔹 Types of Data Binding in Angular
+1. Interpolation
+Description: Used to display component data in the HTML template.
 
-## Development server
+Real-time Example: Displaying a user’s name or a product title on a webpage.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+2. Property Binding
+Description: Binds component data to the properties of HTML elements.
 
-## Code scaffolding
+Real-time Example: Dynamically setting the image source or disabling a button based on a condition.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+3. Event Binding
+Description: Used to handle user actions such as clicks, input, or keypress events.
 
-## Build
+Real-time Example: Submitting a form when a button is clicked or responding to a user’s keystroke.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+4. Two-Way Data Binding
+Description: Combines property and event binding to sync data between the component and the template in real-time.
 
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Real-time Example: Typing in a search box and instantly seeing filtered results, or filling a form where inputs are reflected in the component model.
